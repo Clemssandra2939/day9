@@ -4,4 +4,8 @@
 # you should have a new dictionary called student_grades tht should contain students  names for keys
 # and their rades for values,the final version of the studrnt_grades dictionary will be checked.
 
-student_score = { }
+student_score = {
+
+
+    
+ }
