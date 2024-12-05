@@ -23,8 +23,8 @@ programming_dictionary["Loop"] ="The action of doing something over and over aga
 empty_dictionary = {}
 
 # How to wipe an existing dictionary,this can be helpful when the you want to restart a game or clear the user's progress
-# proramming_dictionary = {}
-# print(proramming_dictionary)
+proramming_dictionary = {}
+print(proramming_dictionary)
 
 # Edit an item in a dictionary
 programming_dictionary["Bugs"]="A moth in your computer." #to make it or assign it to  a defferent new value instead
