@@ -19,10 +19,25 @@ travel_log ={
     "Germany":["Berlin","Hamburg","stuttgart"],
 }
 
-# Nesting Dictionary in a Dictionary
+# Nesting Dictionary in a Dictionary and make more easy to understand 
 
 travel_log ={
-    "France":["Paris","Lille","Dijon"], #
-    "Germany":["Berlin","Hamburg","stuttgart"],
+    "France":{"cities_visited": ["Paris","Lille","Dijon"],"total_visited": 12}, #
+    "Germany":{"cities_visited":["Berlin","Hamburg","stuttgart"],"total_visited": 5},
 }
 
+# Adding muitiple dictionaries in a list 
+ 
+travel_log = [
+    {
+        "country" :"France",
+        "cities_visited" : ["Paris","Lille","Dijon"],
+        "total_visited": 12
+    }, 
+    {
+        "country" :"Germany",
+        "cities_visited" :["Berlin","Hamburg","stuttgart"],
+        "total_visited": 5
+    },
+]
+ 
