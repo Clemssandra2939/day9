@@ -1,3 +1,4 @@
+# Coding char-Dic in list 
 
 travel_log = [
 {
@@ -13,4 +14,4 @@ travel_log = [
         
 },
 ]
- 
+# TODO: Write the function that will allow new country 
