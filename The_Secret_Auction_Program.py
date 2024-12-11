@@ -5,6 +5,15 @@ from art import logo
 print(logo)
 
 print("Welcome to the Secret Auction Program")
-input("What is your name?/n")
-input("what's yor bid?/n")
-input("Are there any other bidders?Type 'yes' or 'no'./n")
+name = input("What is your name?/n")
+price = input("what's yor bid? $ /n")
+
+info_auction = {
+    "Chima": 120,
+}
+
+answer = input("Are there any other bidders?Type 'yes' or 'no'./n")
+if  answer == "yes":
+    clear()
+
+    

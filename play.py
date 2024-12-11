@@ -97,3 +97,26 @@ while should_continue:
     if result == "no":
        should_continue = False
        print("Goodbye!")
+
+
+
+
+# Tip calculator program
+print("Welcome to the tip calculator")
+total_bill=(input("what is the total_bill? $"))
+print(total_bill)
+percentage_tip=(input("what is the percentage_tip would u like to give? 10,12 or 15 "))
+print(percentage_tip)
+num_people=(input("how many people to split the bills?"))
+print(num_people)
+percentage_number=(int(percentage_tip)/100)
+print(percentage_number)
+Everyones_bill =int(total_bill) * float(percentage_number)
+result=int(Everyones_bill)+ int(total_bill)
+print(result)
+result/=int(num_people)
+print(result)
+print(f"Each person should pay:{result}$")
+# if the bill was 150.00,split btw 7 people,with 12% tip.
+# Each person should pay(150.00/5)*0.12
+# Round up to two decimal places
